@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 # Part 1
 st.title("K-Mean app")
 
-iterations = st.slider("Select the number of iterations",5,10000)
+iterations = st.slider("Select the number of iterations",5,1000)
 
 X, _ = make_blobs(n_samples=iterations, centers=5, n_features=2, random_state = 1)
 df = pd.DataFrame(X, columns = list("ab"))
