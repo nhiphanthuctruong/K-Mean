@@ -32,3 +32,8 @@ chart_centers = alt.Chart(df_centers).mark_point().encode(
 )
 
 chart1 + chart_centers
+
+#st.write(st.__version__)
+#st.write(np.__version__)
+#st.write(pd.__version__)
+#st.write(alt.__version__)
