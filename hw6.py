@@ -38,3 +38,4 @@ chart1 + chart_centers
 #st.write(np.__version__)
 #st.write(pd.__version__)
 #st.write(alt.__version__)
+st.write(sklearn.__version__)
